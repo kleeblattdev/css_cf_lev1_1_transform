@@ -1,0 +1,16 @@
+div{
+    margin: 10vh 50vw;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-radius: 8px;
+
+    transform-origin: top left;
+    transition: all 3s ease;
+}
+
+div:hover{
+    transform: rotate(60deg);
+    width: 150px;
+    height: 150px;
+}
